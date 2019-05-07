@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+	background-color:#F0EAEC
+}
+button{
+	width: 12vmin;
+	height:12vmin;
+	background-color:#EABBC7; 
+	border-radius: 6vmin;
+	position:absolute;
+	top:10%;
+	right:8%;
+	margin-left: -6vmin;
+	margin-top: -6vmin;
+}
+p{
+	font-family:futura;
+	font-size:2vmin;
+}
+a{
+	position:absolute;
+	top:40%;
+	left:62%;
+	font-family:futura;
+	font-size:10vmin;
+}
+
+</style>
+<body>
+
+
+<button onclick="myFunction()"><p>Click me</p></button>
+<a id="word"></a>
+
+<script>
+function myFunction() {
+  var x = document.createElement("P");
+  var t = document.createTextNode("Every day brings a chance for you to draw in a breath, kick off your shoes, and");
+  x.appendChild(t);
+  document.body.appendChild(x);
+}
+var choices = ["dance", 
+			   "run",
+			   "play",
+			   "clap",
+			   "laugh",
+			   "listen",
+			   "sing",
+			   "walk",
+			   "jump",
+			   "kick",
+			   "whistle",
+			   "swim",
+			   "fly",
+			   "sleep",
+			   "spin",
+			   ];
+
+var number = Math.random() * 15;
+var integer = parseInt(number);
+
+document.getElementById("word").innerHTML = choices[integer];
+choices[integer];choices[integer];choices[integer];choices[integer];choices[integer];choices[integer];choices[integer];choices[integer];choices[integer];choices[integer];choices[integer];choices[integer];choices[integer];choices[integer]
+</script>
+
+</body>
+</html>
+

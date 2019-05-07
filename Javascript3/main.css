@@ -1,0 +1,69 @@
+/* march 06 css */
+
+ul > li{
+	font-family: futura;
+	font-style: italic;
+}
+
+ol > li{
+	font-family: futura;
+}
+
+html{
+	background-color:#f0ede7;
+}
+*{
+	font-size: 30px;
+	font-family:"futura";
+}
+
+li{
+	font-size: 50px;
+	font-family: "Futura", sans-serif;
+	font-style: italic;
+}
+ol{
+	padding: 100px;
+	color:purple;
+}
+
+.myaddedListElement{
+	color: blue;
+	font-size: 45px;
+}
+
+#imageButton{
+	display: inline-block;
+	background-color: purple;
+	color: white;
+	padding: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: margin-left 0.5s;
+}
+
+#imageButton:hover{
+	transform: scale(1.1);
+}
+
+img{
+	width: 75vw;
+}
+
+
+.moveLeft{
+	margin-left: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

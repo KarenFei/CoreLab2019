@@ -1,0 +1,25 @@
+body{
+	text-align:center;
+	background-color: #F9F1E3;
+}
+h1{
+	text-align:center;
+	font-family:"Sabon LT Pro";
+	font-weight:800;
+	font-size: 55px;
+	color:#e5989b;
+}
+h2{
+	text-align:right;
+	font-style:italic;
+	font-family:"Sabon LT Pro";
+	font-weight:800;
+	font-size: 35px;
+	color:#e5989b;
+}
+pre{
+	font-size:25px;
+	font-family:"Sabon LT Pro";
+	text-align:center;
+	color:#e5989b;
+}

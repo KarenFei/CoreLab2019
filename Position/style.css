@@ -1,0 +1,211 @@
+		body{
+		background-color: #f0ede7;
+		}
+		
+		.large_square{
+			position: relative;
+			width: 400px;
+			height: 400px;
+			margin: 10px;
+			margin-bottom: 100px;
+			background-color: #840000;
+		}
+		.middle_square{
+			width: 50%;
+			height: 50%;
+			background-color: green;
+			margin-left:50%;
+		}
+		.large_square2{
+			position: relative;
+			width: 400px;
+			height: 400px;
+			margin: 10px;
+			margin-bottom: 100px;
+			background-color: #0066ff;
+			overflow-y: hidden;
+		}
+		.inner1{
+			position: relative;
+			width: 50%;
+			height: 50%;
+			background-color: #ff0066;
+			top:50%;
+		}
+		.inner2{
+			position: relative;
+			width: 50%;
+			height: 50%;
+			background-color: #ff0066;
+			left:50%;
+			top:-75%;
+		}
+		.inner3{
+			position: relative;
+  			background-color: #6600cc;
+  			width: 50%;
+  			height: 50%;
+  			top: 25%;
+  			left: 25%;
+  		}
+  		.middle_square2{
+  			width: 50%;
+			height: 50%;
+			background-color: white;
+  		}
+  		.middle_square3{
+  			position: relative;
+  			width: 50%;
+			height: 50%;
+			background-color: blue;
+			top:-50%;
+			left:50%;
+  		}
+  		.middle_square4{
+  			position:relative;
+			width: 50%;
+			height: 50%;
+			background-color: #ff6600;
+			top:-25%;
+  		}
+  		.inner4{
+  			position: relative;
+			width: 50%;
+			height: 25%;
+			background-color: #ff0066;
+			top:-50%;
+			left:25%;
+  		}
+
+		.small_square{
+			position:relative;
+			width: 25%;
+			height: 25%;
+			margin-top: 50%;
+			background-color: #a300cc;
+			top:50%;
+		}
+
+		.middle_square5{
+			position:relative;
+			width: 50%;
+			height: 50%;
+			background-color: #f18100;
+			left:25%;
+		}
+		.small_square2{
+			position:relative;
+			width: 25%;
+			height: 25%;
+			margin-top: 50%;
+			background-color: #a300cc;
+			left:75%;
+			top:-75%;
+		}
+		.large_square3{
+			position: relative;
+			width: 400px;
+			height: 400px;
+			margin: 10px;
+			margin-bottom: 100px;
+			background-color: #4700b3;
+		}
+		.small_square3{	
+			position:relative;		
+			width: 50%;
+			height: 50%;
+			background-color: red;
+			top:-75%;
+		}
+		.small_square4{
+			position:relative;
+			width: 50%;
+			height: 50%;
+			background-color: red;
+			left:50%;
+			top:-75%;
+		}
+		.middle_square6{
+			position:relative;
+			width: 75%;
+			height: 75%;
+			background-color: #00ccff;			
+		}
+		.overlap{
+    		position: relative;
+    		width: 50%;
+    		height: 50%;
+    		background-color: #4700b3;
+    		top:50%;
+    		left:50%;
+		}
+		.circle{
+			position: relative;
+			background-color: #00ff00;
+			height:100%;
+			width:100%;
+			border-radius: 50%;
+			top:-50%;
+			left:-50%;
+			overflow:hidden;
+		}
+		.shape{
+			position:relative;
+			width: 25%;
+			height: 100%;
+			background-color: #a300cc;
+			top:-50%;
+			left:25%;
+		}
+		.shape2{
+			position:relative;
+			width: 50%;
+			height: 100%;
+			background-color: #ff00ff;
+		}
+		.small_square5{
+			position:relative;
+			width: 25%;
+			height: 25%;
+			background-color: #4700b3;
+			top:-100%;
+			left:25%;
+		}
+		.small_square6{
+			position:relative;
+			width: 25%;
+			height: 25%;
+			background-color: #4700b3;
+			top:-100%;
+			left:50%;
+		}
+		.large_square4{
+			position: relative;
+			width: 400px;
+			height: 400px;
+			margin: 10px;
+			margin-bottom: 100px;
+			background-color: #ff6600;
+		}
+		.circle2{
+			position: relative;
+			background-color: #4700b3;
+			height:100%;
+			width:100%;
+			border-radius: 50%;
+		}
+		.middle_square7{
+			position:relative;
+			width: 70%;
+			height: 70%;
+			background-color: #ff6600;
+			top:15%;
+			left:15%;
+		}
+		.circle3{
+			position: relative;
+			background-color: #4700b3;
+			height:100%;
+			width:100%;
+			border-radius: 50%;	
+		}

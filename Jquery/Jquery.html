@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({left: '640px'});
+  });
+});
+</script> 
+<style>
+.first{
+	background:#b39bc8;
+	height:700px;
+	width:50px;
+	position:absolute;
+}
+button{
+	background-color: #b39bc8;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<button>Slide</button>
+
+<div class="first"></div>
+<div class="first" style="left:80px;"></div>
+<div class="first" style="left:160px;"></div>
+<div class="first" style="left:240px;"></div>
+<div class="first" style="left:320px;"></div>
+<div class="first" style="left:400px;"></div>
+<div class="first" style="left:480px;"></div>
+<div class="first" style="left:560px;"></div>
+<div class="first" style="left:640px;"></div>
+</body>
+</html>
