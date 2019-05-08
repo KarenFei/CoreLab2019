@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html class="enterPage"  onclick="goto();">
+<head>
+	<title>Ending1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="ending1.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<script>
+	var str = "The mushroom is poisonous.<br> I start to lose my concious...";
+var spans = '<span>' + str.split(/\s+/).join(' </span><span>') + '</span>';
+	
+
+$(spans).hide().appendTo('body').each(function(i) {
+    $(this).delay(1000 * i).fadeIn();
+});
+
+function goto(){
+      location.href = "dream.html"
+    }
+</script>
+</body>
+</html>

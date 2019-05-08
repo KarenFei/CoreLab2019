@@ -1,0 +1,47 @@
+html{
+	background-color:#161419;
+	margin:10px;
+}
+p{
+	font-family:"cheap pine";
+	font-size:130px;
+	color:#dd2914;
+	text-align:center;
+	margin:40px;
+	margin-bottom:50px;
+	margin-top:150px;
+}
+#sub{
+	font-family:"cheap pine";
+	font-size:40px;
+	color:white;
+	text-align:center;
+	margin:40px;
+	margin-bottom:150px;
+	margin-top:80px;
+}
+div{
+	margin-bottom:40px;
+	outline: 8px solid #dd2914;
+	background-color:#46b489;
+	padding:14px 24px;
+	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	color:white;
+  	font-family:"cheap pine";
+  	font-size:30px;
+}	
+#start{
+	margin-left:35%;
+}
+#instruction{
+	margin-left:42.5%;
+}
+#view{
+	margin-left:12.5%;
+}
+a{
+	text-decoration-line:none;
+	color:white;
+}

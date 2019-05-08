@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="enterPage"  onclick="goto();">
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<style>
+html {
+  background-color: black;
+  margin:10px;
+margin-top:30vmin;
+}
+
+.eye-shape {
+	position:relative;
+  margin: 0 auto;
+  left:-11px;
+  width: 210px;
+  height: 300px;
+  background-color: white;
+  border-radius: 100% 0px;
+  transform: rotate(50deg); 
+}
+body {
+	text-align:center;
+	color:white;
+	font-family:"cheap pine" ;
+	font-size:30vmin;
+}
+div{
+	position:relative;
+	height:265px;
+	width:400px;
+	left:-10vmin;
+
+}
+</style>
+</head>
+<body>
+  <div class='eye-shape'></div>
+ <script>
+	var str = "FOREST";
+var spans = '<span>' + str.split(/\s+/).join(' </span><span>') + '</span>';
+	
+
+$(spans).hide().appendTo('body').each(function(i) {
+    $(this).delay(1000 * i).fadeIn();
+});
+
+function goto(){
+      location.href = "dream.html"
+    }
+</script>
+</body>
+</html>

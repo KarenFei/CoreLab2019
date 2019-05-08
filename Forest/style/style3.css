@@ -1,0 +1,100 @@
+html{
+	background-color:#161419;
+	margin:10px;
+}
+img{
+  position:relative;
+  width:50vmin;
+  left:20vmin;
+}
+#cook{
+  left:13vmin;
+  width:60vmin;
+}
+#forest{
+  width:70vmin;
+  left:10vmin;
+}
+#bread{
+  width:75vmin;
+  left:5vmin;
+}
+#fog{
+  width:75vmin;
+  left:8vmin;
+}
+#eye{
+  width:75vmin;
+  left:8vmin;
+}
+#cottage{
+  width:75vmin;
+  left:8vmin;
+}
+#follow{
+  width:65vmin;
+  left:13vmin;
+}
+#back{
+	margin-bottom:30px;
+	outline: 4px solid #dd2914;
+	background-color:#46b489;
+	padding:7px 12px;
+	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	color:white;
+  	font-family:"cheap pine";
+}
+a{
+  text-decoration-line:none;
+  color:white;
+}
+p{
+	font-family:"futura pt";
+	font-size:5.5vmin;
+	color:white;
+	text-align:center;
+	margin:10px;
+  margin-bottom:20vmin;
+
+}
+
+#dash{
+  outline: 4px dashed white;
+  width:150px;
+  height:50px;
+  margin:auto;
+  top:100px;
+  color: white;
+  position:relative;
+}
+
+button{
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  font-family:"cheap pine";
+  margin: 4px 2px;
+  cursor: pointer;
+  position:relative;
+}
+
+#btn1{
+	background-color: #dd2914;
+	padding: 50px 124px;
+}
+
+#btn2{
+	background-color: #46b489;
+	padding: 50px 87px;
+}
+#next{
+/*  display:none;*/
+  outline: 4px solid #dd2914;
+  background-color:#46b489;
+  margin:35vmin;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forest</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style/out.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("#btn1").click(function(){
+    // $("ol").append("<li>Look Around</li>");
+    $("#dash").css({"background-color" : "red","outline":"none"})
+    $("#btn1").css({"display" : "none"})
+    $("#btn2").css({"display" : "none"})
+    $("#next").css({"display" : "inline-block"})
+    $("#next").find("a").attr("href", "out2.html")
+    $("body").append("<div class='newclass'>X</div>");
+
+  });
+
+  $("#btn2").click(function(){
+    // $("ol").append("<li>Stay Where I am</li>");
+    $("#dash").css({"background-color" : "green","outline":"none"})
+     $("#btn1").css({"display" : "none"})
+    $("#btn2").css({"display" : "none"})
+    $("#next").css({"display" : "inline-block"})
+    $("#next").find("a").attr("href", "out2.html")
+  });
+
+	$("#dash").click(function(){
+	$("#btn1").css({"display" : "inline-block"})
+    $("#btn2").css({"display" : "inline-block"})
+    $("#dash").css({"background-color" : "black", "outline":"dashed white"})
+     });
+ });
+
+  // to hide and show items: use the css display property
+
+  // OR, to add new items, use the javascript append and the remove property
+  // append: https://www.w3schools.com/jquery/html_append.asp
+  // remove: https://www.w3schools.com/jquery/html_remove.asp
+
+</script>
+</head>
+<body>
+<div id="back"><a href="index.html">X</a></div>
+<p>The woman smiled, "Thank you." She speaks to me, "Can I help you with anything?"
+</p>
+
+<div id="dash">
+	<ol>
+	</ol>
+</div>
+
+
+<button id="btn1">Ask her how to get out from the forest.</button>
+<button id="btn2">Ask her how to get out from the forest.</button>
+<button id="next"><a href="out2.html">Next</a></button>
+</body>
+</html>

@@ -1,0 +1,66 @@
+html{
+	background-color:#161419;
+	margin:10px;
+}
+#back{
+	margin-bottom:30px;
+	outline: 4px solid #dd2914;
+	background-color:#46b489;
+	padding:7px 12px;
+	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	color:white;
+  	font-family:"cheap pine";
+}
+a{
+  text-decoration-line:none;
+  color:white;
+}
+p{
+	font-family:"futura pt";
+	font-size:5.5vmin;
+	color:white;
+	text-align:center;
+	margin:10px;
+}
+
+#dash{
+  outline: 4px dashed white;
+  width:150px;
+  height:50px;
+  margin:auto;
+  top:90px;
+  color: white;
+  position:relative;
+}
+
+button{
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  font-family:"cheap pine";
+  margin: 4px 2px;
+  cursor: pointer;
+  position:relative;
+  top:195px;
+}
+
+#btn1{
+	background-color: #dd2914;
+	padding: 35px 90px;
+}
+
+#btn2{
+	background-color: #46b489;
+	padding: 50px 113px;
+}
+#next{
+  display:none;
+  outline: 4px solid #dd2914;
+  background-color:#46b489;
+  margin:35vmin;
+}

@@ -1,0 +1,25 @@
+html{
+	margin:10px;
+	margin-top:25vmin;
+}
+body{
+	color:white;
+	font-family:"Brokenscript OT" ;
+	font-size:15vmin;
+	animation: colorchange 20s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 20s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: red;}
+      50%  {background: black;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: red;}
+      50%  {background: black;}
+    }
+}

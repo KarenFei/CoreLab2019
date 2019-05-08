@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forest</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style/style2.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("#btn1").click(function(){
+    // $("ol").append("<li>Look Around</li>");
+    $("#dash").css({"background-color" : "red","outline":"none"})
+    $("#btn1").css({"display" : "none"})
+    $("#btn2").css({"display" : "none"})
+    $("#next").css({"display" : "inline-block"})
+    $("body").append("<div class='newclass'>X</div>");
+    $("#next").find("a").attr("href", "Page4.html")
+  });
+
+  $("#btn2").click(function(){
+    // $("ol").append("<li>Stay Where I am</li>");
+    $("#dash").css({"background-color" : "green","outline":"none"})
+     $("#btn1").css({"display" : "none"})
+    $("#btn2").css({"display" : "none"})
+    $("#next").css({"display" : "inline-block"})
+    $("#next").find("a").attr("href", "Page3.html")
+  });
+  
+  $("#dash").click(function(){
+  $("#btn1").css({"display" : "inline-block"})
+    $("#btn2").css({"display" : "inline-block"})
+    $("#dash").css({"background-color" : "black", "outline":"dashed white"})
+     });
+});
+</script>
+</head>
+<body>
+<div id="back"><a href="index.html">X</a></div>
+<p>I walked around and find some branches and bay on the ground. I might need them later.
+</p>
+
+<div id="dash">
+	<ol>
+	</ol>
+</div>
+
+<button id="btn1">Pick up</button>
+<button id="btn2">Don't pick up</button>
+<button id="next"><a href="page3.html">Next</button>
+</body>
+</html>
