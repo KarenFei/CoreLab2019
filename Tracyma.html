@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tracy Ma</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	html{
+		background-color:#AF70EA;
+		scroll-behavior: smooth;
+
+	}
+	body{
+		margin:5vmin;
+		margin-top:15vmin;
+		margin-bottom:19vmin;
+	}
+	h1{
+		font-family:"TitlingGothicFB Normal" ;
+		font-size:8vmin;
+		color:white;
+	}
+	h2{
+		font-family:"TitlingGothicFB Normal" ;
+		font-size:8vmin;
+		color:#39F732;
+	}
+	h3{
+		font-family:"TitlingGothicFB Normal" ;
+		font-size:8vmin;
+		color:#39F732;
+	}
+	h4{
+		font-family:"TitlingGothicFB Normal" ;
+		font-size:10vmin;
+	}
+	p{
+		margin-top:30vmin;
+		font-family:"TitlingGothicFB Normal" ;
+		font-size:5vmin;
+	}
+	#title{
+		font-size:2vmin;
+	}
+	#name{
+		color:#FF0000;
+		text-decoration: none;
+	}
+	#name:hover{
+		background-color: none;
+		color:white;
+	}
+	#name:active{
+		color:orange;
+	}
+	a{
+		color:black;
+	}
+	a:hover{
+		background-color: none;
+		color:red;
+	}
+	a:active{
+		color:#39F732;
+	}
+/*	.border {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 10px solid #000;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+.loader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #AF70EA;
+  width: 100%;
+  height: 100vh;
+  animation: backgroundChange .5s linear 3s forwards, fadeOut .5s linear 5s forwards
+}
+
+.load-text {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 10vmin;
+  /*width: fit-content;*/
+  display: flex;
+  animation: colorChange .5s linear 3s forwards;
+  font-family:"TitlingGothicFB Normal";
+}
+
+.loaded-text {
+  transform: scale(1.5);
+  animation: scaleText .5s linear .5s forwards;
+  margin:5vmin;
+}
+
+.loading-text {
+  width: 0;
+  overflow: hidden;
+  animation: expand .5s linear 1.5s forwards;
+}
+
+@keyframes scaleText {
+  from {transform: scale(1.5)}
+  to {transform: scale(1)}
+}
+
+@keyframes expand {
+  from {width: 0;}
+  to {width: 23vmax;}
+}
+
+@keyframes backgroundChange {
+  from {background-color: white}
+  to {background-color: black}
+}
+
+@keyframes colorChange {
+  from {color: black}
+  to {color: white}
+}
+
+@keyframes fadeOut {
+  from {opacity: 1}
+  to {
+    opacity: 0; 
+    z-index: -1;
+  }
+}
+</style>
+</head>
+<body>
+<div class="loader">
+  <div class="load-text">
+    <div class="loaded-text"><h1>Parsons</h1></div>
+    <div class="loading-text"><h1>CD Lecture Series</h1></div>
+  </div>
+</div>
+<main>
+<div class="border"></div>
+<h4><a id="name" href="#section2">Tracy Ma</a></h4>
+<h2>April 23rd, 5pm</h2>
+<h3>
+Johnson/Kaplan Building,<br>66 West 12th Street,<br>Room A404
+</h3>
+
+<p><a href="https://www.instagram.com/tracy_ma/">Tracy Ma</a> is a Hong Kong-born Canadian graphic designer. Her work has been recognized by the Type Directors Club, the Society of Print Designers, D&AD, Print magazine’s “20 under 30” and Complex magazine’s “25 Young Designers to Watch”. She has given several talks in cities across Canada, America and Europe about her work. She is currently a visual editor at The New York Times.</p>
+<div id="section2"></div>
+</main>
+</body>
+</html>
