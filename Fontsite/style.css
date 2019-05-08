@@ -1,0 +1,303 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color:black;
+  font-family: "futura";
+}
+h1{
+  position:fixed;
+  font-family:"futura","PingFang SC";
+  font-size:200px;
+  color:white;
+  text-align:middle;
+  left:25%;
+}
+p{
+  margin:50px;
+  font-size:50px;
+  margin-top:130px;
+  font-family:"futura";
+  color:white;
+  text-align:middle;
+}
+.chinese{
+  position:absolute;
+  top:50%;
+  margin:50px;
+  font-family:"MF ShangYa (Noncommercial)" ;
+}
+.title{
+  position:absolute;
+  width:10%;
+  top:20%;
+  left:2%;
+}
+.title2{
+  position:absolute;
+  width:10%;
+  top:20%;
+  right:2%;
+}
+.title3{
+  position:absolute;
+  width:10%;
+  top:80%;
+  left:2%;
+}
+.title4{
+  position:absolute;
+  width:10%;
+  top:80%;
+  right:2%;
+}
+.title5{
+  position:absolute;
+  width:10%;
+  top:150%;
+  left:2%;
+}
+.title6{
+  position:absolute;
+  width:10%;
+  top:150%;
+  right:2%;
+}
+.dec{
+  position:absolute;
+  width:10px;
+  height:280px;
+  bottom:-135%;
+  left:7%;
+  background-color:#9C1010;
+}
+.dec2{
+  position:absolute;
+  width:10px;
+  height:280px;
+  bottom:-135%;
+  right:7%;
+  background-color:#9C1010;
+}
+.dec3{
+  position:absolute;
+  width:1350px;
+  height:10px;
+  bottom:-145%;
+  left:10%;
+  margin-bottom:5%;
+  background-color:#9C1010;
+}
+.backgroundm{
+  position:absolute;
+  background-color:black;
+  height:2200px;
+  width:1200px;
+  top:18%;
+  left:15%;
+}
+.backgroundm:hover{
+  opacity:0;
+}
+.background{
+  position:absolute;
+  background-color:black;
+  height:730px;
+  width:1320px;
+  top:18%;
+  left:15%;
+}
+img{
+  position:relative;
+  margin:5px;
+}
+.image2{
+  height:150px;
+  top:-37%;
+}
+.image3{
+  height:30%;
+  top:-35%;
+  left:29%;
+}
+.image4{
+  height:20%;
+  top:-40%;
+  left:33%;
+}
+.image5{
+  height:25%;
+
+}
+.image6{
+  height:25%;
+
+}
+.image7{
+  height:25%;
+  top:-41.5%;
+}
+.image8{
+  height:25%;
+  top:-41.5%;
+}
+.image9{
+  height:40%;
+  top:7%;
+  left:-2%;
+}
+.image10{
+  height:40%;
+  top:7%;
+}
+.image11{
+  height:35%;
+  top:-40%;
+}
+.image12{
+  height:40%;
+  top:-40%;
+}
+.image13{
+  height:45%;
+  top:11.5%;
+  left:2.5%;
+}
+.image14{
+  height:45%;
+  top:11.5%;
+  left:2.5%;
+}
+.image15{
+  height:50%;
+  top:-40%;
+}
+.image16{
+  height:30%;
+  top:-45%;
+  left:5%;
+}
+.image17{
+  height:10%;
+  top:-18%;
+  left:15%;
+}
+.image18{
+  height:10%;
+  left:-15%;
+  top:5%;
+}
+.image19{
+  height:40%;
+  top:-35%;
+}
+.image20{
+  height:40%;
+  top:-35%;
+}
+.image21{
+  height:15%;
+  top:-16%;
+  left:-26.5%;
+}
+.image22{
+  height:35%;
+  top:-32%;
+}
+.image23{
+  height:20%;
+  top:-32%;
+}
+.image24{
+  height:33%;
+  top:-32%;
+  left:1%;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  position:relative;
+  left:150px;
+  top:100px;
+  width: 60px;
+  height: 8px;
+  background-color: #9C1010;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(173,167,169); /* Black fallback color */
+  background-color: rgba(173,167,169, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 8%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  position:relative;
+  top:150px;
+  margin-top:4%;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 80px;
+  color: #9C1010;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
