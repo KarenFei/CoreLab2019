@@ -89,3 +89,13 @@ a:hover{
   left: 70%;
   transform: translate(-50%, -50%);
 }
+#Studio{
+  font-size:60px;
+  color:white;
+  font-family:"futura";
+  text-decoration:none;
+}
+#Studio:hover{
+  color:#e4838c;
+  text-decoration:none;
+}

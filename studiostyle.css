@@ -1,5 +1,5 @@
 html{
-	background-color:#034AFF;
+	background-color:#3600A4;
 }
 body{
 	margin:0;
@@ -68,7 +68,7 @@ a{
 	text-decoration:none;
 }
 a:hover{
-	color:white;
+	color:#FD4F05;
 	text-decoration:none;
 }
 .center2{
@@ -82,4 +82,14 @@ a:hover{
   top: 50%;
   left: 70%;
   transform: translate(-50%, -50%);
+}
+#lab{
+  font-size:60px;
+  color:#FD4F05;
+  font-family:"futura";
+  text-decoration:none;
+}
+#lab:hover{
+  color:black;
+  text-decoration:none;
 }
