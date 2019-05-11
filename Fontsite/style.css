@@ -2,11 +2,11 @@ body, html {
   height: 100%;
   margin: 0;
   background-color:black;
-  font-family: "futura";
+  font-family: "futura-pt";
 }
 h1{
   position:fixed;
-  font-family:"futura","PingFang SC";
+  font-family:"futura-pt","PingFang SC";
   font-size:200px;
   color:white;
   text-align:middle;
@@ -16,7 +16,7 @@ p{
   margin:50px;
   font-size:50px;
   margin-top:130px;
-  font-family:"futura";
+  font-family:"futura-pt";
   color:white;
   text-align:middle;
 }
