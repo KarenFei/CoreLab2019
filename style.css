@@ -21,7 +21,7 @@ body{
   margin:-50px 0 0 -50px;
   line-height:.7;
   font-weight:bold;
-  font-family:"futura";
+  font-family:"futura-pt";
 }
 #container {
   overflow-y:scroll;
@@ -92,7 +92,7 @@ a:hover{
 #Studio{
   font-size:60px;
   color:white;
-  font-family:"futura";
+  font-family:"futura-pt";
   text-decoration:none;
 }
 #Studio:hover{

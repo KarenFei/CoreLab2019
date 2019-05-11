@@ -32,7 +32,7 @@ body{
 }
 h1{
 	text-align:center;
-	font-family:"brokenscript OT";
+	font-family:"ff-brokenscript-web";
 	font-weight:800;
 	font-size: 150px;
 	color: #C01414;
@@ -41,7 +41,7 @@ h1{
 h2{
 	text-align:left;
 	text-decoration:underline;
-	font-family:"brokenscript OT";
+	font-family:"ff-brokenscript-web";
 	font-weight:800;
 	font-size: 40px;
 	color: #C01414;
@@ -49,7 +49,7 @@ h2{
 }
 h3{
 	text-align:right;
-	font-family:"SabbathBlack OT";
+	font-family:"sabbath-black";
 	font-weight:800;
 	font-size: 80px;
 	color: #D5D8DC;
@@ -57,7 +57,7 @@ h3{
 }
 h4{
 	text-align:left;
-	font-family:"brokenscript OT";
+	font-family:"ff-brokenscript-web";
 	font-weight:800;
 	font-size: 40px;
 	color: #C01414;
@@ -65,7 +65,7 @@ h4{
 }
 h5{
 	text-align:right;
-	font-family:"SabbathBlack OT";
+	font-family:"sabbath-black";
 	font-weight:800s;
 	font-size: 60px;
 	color: #D5D8DC;
@@ -74,7 +74,7 @@ h5{
 h6{
 	text-align:right;
 	text-decoration:underline;
-	font-family:"SabbathBlack OT";
+	font-family:"sabbath-black";
 	font-weight:800;
 	font-size: 50px;
 	color: #D5D8DC;
@@ -82,7 +82,7 @@ h6{
 }
 pre{
 	font-size:45px;
-	font-family:"brokenscript OT";
+	font-family:"ff-brokenscript-web";
 	text-align:left;
 	color:#C01414;
 	margin-left: 10%;
