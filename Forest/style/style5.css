@@ -11,7 +11,7 @@ html{
   	text-decoration: none;
   	display: inline-block;
   	color:white;
-  	font-family:"cheap pine";
+  	font-family:"cheap-pine";
 }
 a{
   text-decoration-line:none;
@@ -42,7 +42,7 @@ button{
   text-decoration: none;
   display: inline-block;
   font-size: 7vmin;
-  font-family:"cheap pine";
+  font-family:"cheap-pine";
   margin: 4px 2px;
   cursor: pointer;
   position:relative;

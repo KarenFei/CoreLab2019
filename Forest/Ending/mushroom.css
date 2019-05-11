@@ -6,7 +6,7 @@ html{
 
 body{
   font-color:black;
-  font-family:"SabbathBlack OT" ;
+  font-family:"sabbath-black" ;
   font-size:8vmin;
   text-align:center;
   animation: colorchange 40s; /* animation-name followed by duration in seconds*/
