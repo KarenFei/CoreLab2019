@@ -3,7 +3,7 @@ html{
 	margin:10px;
 }
 p{
-	font-family:"cheap pine";
+	font-family:"cheap-pine";
 	font-size:130px;
 	color:#dd2914;
 	text-align:center;
@@ -20,7 +20,7 @@ div{
   	text-decoration: none;
   	display: inline-block;
   	color:white;
-  	font-family:"cheap pine";
+  	font-family:"cheap-pine";
   	font-size:30px;
 }	
 #start{
