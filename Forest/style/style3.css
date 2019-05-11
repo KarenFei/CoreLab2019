@@ -44,14 +44,14 @@ img{
   	text-decoration: none;
   	display: inline-block;
   	color:white;
-  	font-family:"cheap pine";
+  	font-family:"cheap-pine";
 }
 a{
   text-decoration-line:none;
   color:white;
 }
 p{
-	font-family:"futura pt";
+	font-family:"futura-pt";
 	font-size:5.5vmin;
 	color:white;
 	text-align:center;
@@ -77,7 +77,7 @@ button{
   text-decoration: none;
   display: inline-block;
   font-size: 40px;
-  font-family:"cheap pine";
+  font-family:"cheap-pine";
   margin: 4px 2px;
   cursor: pointer;
   position:relative;
